@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "CarGo",
+    "slug": "cargo",
+    "privacy": "unlisted",
+    "sdkVersion": "35.0.0",
+    "scheme": "cargo",
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false 
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.developer.cargodev",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take product images.",
+        "NSPhotoLibraryUsageDescription": "Please give photos permission to upload product images to your ad",
+        "LSApplicationQueriesSchemes":["cargo"]
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.12592995924-93bvpjbll346oa2kg33kfm574lg7r2q5"
+        }
+      }
+    },
+    "android": {
+      "package": "com.developer.cargodev",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 5
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "cargo-id",
+            "project": "cargo-id",
+            "authToken": "1c44619f5c614a918cc94854128f04c5b47ea419d3c244e1afefd9ab2b8bc3b9"
+          }
+        }
+      ]
+    },
+    "description": ""
+  }
+}

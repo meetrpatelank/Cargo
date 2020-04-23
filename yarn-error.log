@@ -1,0 +1,110 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\meetr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\meetr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\meetr\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\flutter\flutter;C:\Program Files\nodejs;C:\Users\meetr\AppData\Local\Microsoft\WindowsApps;C:\Users\meetr\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Android\Android Studio\bin;C:\flutter\flutter;C:\Users\meetr\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll",
+      "optimize": "expo optimize"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "~3.0.0",
+      "@expo/vector-icons": "^10.0.5",
+      "buffer": "^5.2.1",
+      "expo": "^35.0.0",
+      "expo-app-auth": "^7.0.0",
+      "expo-asset": "^5.0.0",
+      "expo-av": "^7.0.1",
+      "expo-camera": "~5.0.1",
+      "expo-cli": "^3.4.1",
+      "expo-constants": "^7.0.0",
+      "expo-facebook": "^7.0.0",
+      "expo-font": "^7.0.0",
+      "expo-google-app-auth": "^6.0.0",
+      "expo-google-sign-in": "^6.0.0",
+      "expo-image-manipulator": "^7.0.0",
+      "expo-image-picker": "^7.0.0",
+      "expo-location": "~5.0.1",
+      "expo-payments-stripe": "^7.0.0",
+      "expo-permissions": "^7.0.0",
+      "expo-sharing": "^7.0.0",
+      "expo-stripe-checkout": "^1.0.1",
+      "expo-web-browser": "^7.0.1",
+      "firebase": "^6.2.4",
+      "lodash": "^4.17.15",
+      "native-base": "^2.13.8",
+      "react": "^16.11.0",
+      "react-dom": "^16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+      "react-native-actionsheet": "^2.4.2",
+      "react-native-animatable": "^1.3.2",
+      "react-native-app-intro-slider": "^3.0.0",
+      "react-native-awesome-alerts": "^1.2.0",
+      "react-native-collapsible": "^1.5.1",
+      "react-native-communications": "^2.2.1",
+      "react-native-credit-card-input": "^0.4.1",
+      "react-native-elements": "^1.2.0",
+      "react-native-gesture-handler": "^1.4.1",
+      "react-native-gifted-chat": "^0.10.1",
+      "react-native-google-places-autocomplete": "^1.3.9",
+      "react-native-image-slider-box": "^1.0.5",
+      "react-native-input-scroll-view": "^1.9.3",
+      "react-native-loading-spinner-overlay": "^1.0.1",
+      "react-native-navigation": "^2.27.9",
+      "react-native-numeric-input": "^1.8.3",
+      "react-native-reanimated": "^1.3.0",
+      "react-native-screens": "1.0.0-alpha.23",
+      "react-native-sectioned-multi-select": "^0.7.0",
+      "react-native-snap-carousel": "^3.8.0",
+      "react-native-switch-toggle": "^1.1.2",
+      "react-native-uuid": "^1.4.9",
+      "react-native-vector-icons": "^6.6.0",
+      "react-native-web": "^0.11.7",
+      "react-navigation": "^4.0.10",
+      "react-navigation-stack": "^1.9.0",
+      "react-navigation-tabs": "^2.5.5",
+      "react-stripe-elements": "^4.0.0",
+      "rx-core": "^4.0.8",
+      "sentry": "^0.1.2",
+      "sentry-expo": "^2.0.1",
+      "stripe-client": "^1.1.5",
+      "yarn": "^1.21.1"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^7.1.0",
+      "jest-expo": "^35.0.0",
+      "react-native-css-transformer": "^1.2.4"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
